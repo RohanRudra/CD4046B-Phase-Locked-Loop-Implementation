@@ -1,0 +1,19 @@
+Warning: Worst timing paths might not be returned. (TIM-104)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 5
+        -slack_lesser_than 0.00
+        -max_paths 1000
+Design : PD_COMP
+Version: L-2016.03-SP1
+Date   : Fri Jun 20 12:53:11 2025
+****************************************
+
+Operating Conditions: ss_1p62v_125c   Library: tsl18fs120_ss_1p62v_125c
+Wire Load Model Mode: top
+No paths.
+
+1

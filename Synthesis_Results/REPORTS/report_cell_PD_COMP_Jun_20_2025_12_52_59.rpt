@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : PD_COMP
+Version: L-2016.03-SP1
+Date   : Fri Jun 20 12:53:11 2025
+****************************************
+
+Library(s) Used:
+
+    tsl18fs120_ss_1p62v_125c (File: /global/ANALOG/PDK_DESIGNKIT/Tower_Digital/tsl18fs120_Rev_2015.11/lib/db/tsl18fs120_ss_1p62v_125c.db)
+
+Number of ports:                            6
+Number of nets:                            77
+Number of cells:                           73
+Number of combinational cells:             65
+Number of sequential cells:                 8
+Number of macros/black boxes:               0
+Number of buf/inv:                         16
+Number of references:                      23
+
+Combinational area:                937.679997
+Buf/Inv area:                      112.879999
+Noncombinational area:             407.680008
+Macro/Black Box area:                0.000000
+Net Interconnect area:              33.479759
+
+Total cell area:                  1345.360005
+Total area:                       1378.839765
+1

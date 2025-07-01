@@ -1,0 +1,31 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U81/A1 U81/ZN U82/A U82/ZN U75/A1 U75/ZN state_reg[3]/E state_reg[3]/Q 
+Information: Timing loop detected. (OPT-150)
+	state_reg[1]/E state_reg[1]/Q U78/I U78/ZN U81/A2 U81/ZN U82/A U82/ZN U75/A1 U75/ZN 
+Warning: Disabling timing arc between pins 'E' and 'Q' on cell 'state_reg[3]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'E' and 'Q' on cell 'state_reg[1]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'E' and 'Q' on cell 'state_reg[2]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'E' and 'Q' on cell 'state_reg[0]'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -slack_lesser_than 0.00
+        -max_paths 1000
+Design : PD_COMP
+Version: L-2016.03-SP1
+Date   : Fri Jun 20 12:53:11 2025
+****************************************
+
+Operating Conditions: ss_1p62v_125c   Library: tsl18fs120_ss_1p62v_125c
+Wire Load Model Mode: top
+No paths.
+
+1

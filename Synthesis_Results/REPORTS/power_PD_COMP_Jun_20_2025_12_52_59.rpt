@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : PD_COMP
+Version: L-2016.03-SP1
+Date   : Fri Jun 20 12:53:11 2025
+****************************************
+
+
+Library(s) Used:
+
+    tsl18fs120_ss_1p62v_125c (File: /global/ANALOG/PDK_DESIGNKIT/Tower_Digital/tsl18fs120_Rev_2015.11/lib/db/tsl18fs120_ss_1p62v_125c.db)
+
+
+Operating Conditions: ss_1p62v_125c   Library: tsl18fs120_ss_1p62v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+PD_COMP                4000              tsl18fs120_ss_1p62v_125c
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  25.1835 nW   (57%)
+  Net Switching Power  =  18.9287 nW   (43%)
+                         ---------
+Total Dynamic Power    =  44.1121 nW  (100%)
+
+Cell Leakage Power     =  10.7279 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       1.6091e-05        3.9367e-07          969.2000        1.7454e-05  (  31.83%)
+sequential     2.1272e-06        3.4616e-06        2.7666e+03        8.3554e-06  (  15.24%)
+combinational  6.9652e-06        1.5073e-05        6.9921e+03        2.9031e-05  (  52.94%)
+--------------------------------------------------------------------------------------------------
+Total          2.5183e-05 mW     1.8929e-05 mW     1.0728e+04 pW     5.4840e-05 mW
+1
